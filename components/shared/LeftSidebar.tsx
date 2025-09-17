@@ -2,9 +2,11 @@ import React from 'react'
 
 const LeftSidebar = () => {
   return (
-    <div>
-      <h1>LeftSidebar</h1>
-    </div>
+    <section className="custom-scrollbar leftsidebar">
+      <div className="flex w-full flex-1 flex-col gap-6 px-6">
+
+      </div>
+    </section>
   )
 }
 
